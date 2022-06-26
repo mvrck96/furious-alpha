@@ -5,7 +5,7 @@ services:
     container_name: backend_fastapi
     image: backend_image
     env_file:
-      - dev.env
+      - ./src/serv/.env
     build:
       context: ./src/serv/
       dockerfile: Dockerfile
