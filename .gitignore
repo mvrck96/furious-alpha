@@ -1,4 +1,7 @@
-# VSCODE 
+# TOKENS
+dev.env
+
+# VSCODE
 .vscode/
 
 # Byte-compiled / optimized / DLL files
