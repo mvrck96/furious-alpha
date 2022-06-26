@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  backend:
+    container_name: backend_fastapi
+    image: backend_image
+    env_file:
+      - dev.env
+    build:
+      context: ./src/serv/
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 9999:9999
